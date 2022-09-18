@@ -1,0 +1,204 @@
+
+
+
+
+
+
+
+header nav img {
+    margin: 0;
+    padding: 0;
+    width: 10%;
+    height: 10%;
+   }
+nav {
+    display: flex;
+    flex-direction: row;
+    background-color: gray;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: aliceblue;
+    text-decoration: none;;
+}
+header nav ul { 
+    position: absolute;
+    right: 1rem;
+  
+
+}
+header nav ul li {
+    display: inline-block;
+   line-height: 7;
+   font-size: 1.3rem;
+   }
+.banner {
+    background-image: url("../img/portada.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 25rem;
+  }
+
+
+main {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(223, 222, 220);
+}
+.portada {
+    height: 150 ;
+   
+}
+main div {
+    margin: 7rem;
+    background-color: rgb(223, 222, 220);
+}
+main div p {
+    font-size: 1.5rem;
+    margin-top: 4rem;
+    background-color: rgb(223, 222, 220);
+}
+h1 {
+    background-color: rgb(223, 222, 220);
+}
+
+
+h2 {
+    text-align: center;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    font-size: 3rem;
+}
+section div img {
+    width: 50%;
+  
+} 
+.abogados {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-left: 5rem;
+  
+}
+h4 {
+font-size: 1.1rem;
+width: 30%;
+text-align: center;
+margin: auto;
+padding: 4rem;
+padding-top: 1rem;
+
+
+}
+.abogados div h3 {
+    text-align: center;
+    font-size: 1rem;
+    padding: 0;
+}
+.peritos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-left: 5rem;
+   }
+.peritos div h3  {
+        text-align: center;
+        font-size: 1rem; 
+        padding: 0;   
+    }
+
+    .litigacion {
+        background-color: rgb(223, 222, 220);
+    }
+    .penal{
+        background-image: url("../img/penal.png");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        height: 42rem;    
+    }
+    .accidentologia {
+        background-image: url("../img/accidente.png");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        height: 42rem;    
+    
+    }
+    .caja__litigacion--uno {
+        position:absolute;
+        top: 150rem;
+        right: 5rem;
+        background-color: rgb(91, 91, 91);
+        color: rgb(231, 231, 231);
+        width: 30%;
+        box-shadow: 1rem 1rem 2rem black;
+
+    }
+    .caja__litigacion--dos {
+        position:absolute;
+        top: 190rem;
+        right: 5rem;
+        background-color: rgb(91, 91, 91);
+        color: rgb(231, 231, 231);
+        width: 30%;    
+        box-shadow: 1rem 1rem 2rem black;  
+    }
+    h3 {
+        padding-left: 3rem;
+        margin: rem;
+    }
+    p {
+        padding-left: 3rem;        
+    }
+    button {
+        margin-bottom: 2rem;
+    }
+
+    .grid {
+        display: flex;
+        flex-direction: row;
+    }
+    .titulo--servicios {
+      margin: 3rem ;
+    }
+    .servicios--periciales {
+        background-color: rgb(152, 151, 151);
+        padding: 3rem;
+    }
+    .servicios--periciales h3 {
+        margin: 3rem 0;
+    }
+    .servicios--periciales h4 {
+        width: 30%;
+        margin: auto;
+        text-align: center;
+        font-style: oblique;
+        margin-top: 1.5rem;
+        margin-bottom: 1.5rem;
+        font-size: 1rem;
+    }
+
+    footer {
+        background-color: gray;
+    }
+    footer ul { 
+        display: inline-block;
+        margin-top: 2rem;
+       
+       
+    }
+    footer ul li {
+         background-color: gray;
+       }
+    footer img {
+        float: right;
+        background-color: gray;
+        
+        
+       }
+
+    
