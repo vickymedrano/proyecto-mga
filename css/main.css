@@ -106,7 +106,7 @@ font-family: 'Prata', serif;
         font-size: 1rem; 
         padding: 0;   
     }
-
+/* estilo seccion servicios - litigacion*/
     .litigacion {
         background-color: rgb(223, 222, 220);
     }
@@ -152,10 +152,12 @@ font-family: 'Prata', serif;
     button {
         margin-bottom: 2rem;
     }
-
+/* estilo seccion servicios - otros servicios*/
     .grid {
         display: flex;
         flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
     }
     .titulo--servicios {
       margin: 3rem ;
@@ -176,7 +178,7 @@ font-family: 'Prata', serif;
         margin-bottom: 1.5rem;
         font-size: 1rem;
     }
-
+/* estilo footer*/
     footer {
         background-color: gray;
     }
