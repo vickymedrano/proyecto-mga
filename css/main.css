@@ -160,24 +160,72 @@ font-family: 'Prata', serif;
         justify-content: center;
     }
     .titulo--servicios {
-      margin: 3rem ;
-    }
+      margin: 4rem ;
+      text-align: center;
+      padding: 2rem;
+      background:
+          linear-gradient(currentColor 0 0) 0 0,
+          linear-gradient(currentColor 0 0) 0 0,
+          linear-gradient(currentColor 0 0) 100% 100%,
+          linear-gradient(currentColor 0 0) 100% 100%;
+        background-size: var(--d, 0) 3px, 3px var(--d, 0);
+        background-repeat: no-repeat;
+        transition: 0.5s;
+      }
+    .titulo--servicios:hover {
+        --d: 100%;
+      }
+    .otros--servicios--legales h4 {
+        width: 60%;
+        margin: auto;
+        text-align: center;
+        font-style: oblique;
+        margin-top: 1.5rem;
+        margin-bottom: 1.5rem;
+        font-size: 1.2rem;
+    } 
     .servicios--periciales {
         background-color: rgb(152, 151, 151);
         padding: 3rem;
     }
     .servicios--periciales h3 {
         margin: 3rem 0;
+        margin: 4rem ;
+      text-align: center;
+      padding: 2rem;
+      background:
+          linear-gradient(currentColor 0 0) 0 0,
+          linear-gradient(currentColor 0 0) 0 0,
+          linear-gradient(currentColor 0 0) 100% 100%,
+          linear-gradient(currentColor 0 0) 100% 100%;
+        background-size: var(--d, 0) 3px, 3px var(--d, 0);
+        background-repeat: no-repeat;
+        transition: 0.5s;
+      }
+    .servicios--periciales:hover {
+        --d: 100%;
     }
-    .servicios--periciales h4 {
-        width: 30%;
+    .grid h4 {
+        width: 60%;
         margin: auto;
         text-align: center;
         font-style: oblique;
         margin-top: 1.5rem;
         margin-bottom: 1.5rem;
-        font-size: 1rem;
+        font-size: 1.2rem;
     }
+/*estilos de mapa*/
+.mapa p {
+    background-color: black;
+    color: aliceblue;
+    font-size: 2rem;
+    text-align: center;
+    margin: 0;
+}
+iframe {
+    width: 100%;
+    filter: grayscale(1);
+}
 /* estilo footer*/
     footer {
         background-color: gray;
@@ -210,7 +258,6 @@ font-family: 'Prata', serif;
         left : 20rem;
 
        }
-
     /* estilo pagina cv atenor*/
     .atenor {
         background-image: url("../img/atenor.png");
@@ -265,3 +312,71 @@ font-family: 'Prata', serif;
     
            }
     
+
+           
+/*estilo mobile*/
+
+@media screen and (max-width :600px) {
+
+/*estilos del nav*/
+    header nav ul li {
+        line-height: 3;
+        font-size: 1rem;
+        font-weight:bold
+    }
+    header nav ul li a {
+        margin: 0;
+        padding: 0;
+    }
+    .banner {
+        height: 10rem;
+      }
+
+/*estilos del main*/
+main {
+    display: flex;
+    flex-direction: column;  
+}
+h1 {
+    padding : 0;
+    margin: 0;
+}
+main div {
+    margin: 1rem;  
+}
+main div p {
+    font-size: 1rem;
+    margin-top: 1rem;
+    text-align: justify;
+}
+.abogados {
+    display: flex;
+    flex-direction: column;
+    padding-left: 1rem;
+}
+.frase {
+    display: none;
+}
+.peritos {
+    display: flex;
+    flex-direction: column;
+    padding-left: 1rem;
+}
+
+/* estilo seccion servicios - litigacion*/
+
+.penal{
+    background-image: none;
+}
+ .accidentologia {
+        background-image: none;
+}
+.caja__litigacion--uno {
+    position:static;
+    width: 90%;
+}
+.caja__litigacion--dos {
+    position:static;
+    width: 90%;
+}
+
